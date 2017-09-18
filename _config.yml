@@ -1,0 +1,21 @@
+# Site settings
+title: Learning to code
+header-img: img/home-bg.png
+email: crawfordmikyle@gmail.com
+copyright_name: crawfordmikyle
+description: > # this means to ignore newlines until "baseurl:"
+  A programmer's journey 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  crawfordmikyle
+learn_profile: crawfordmikyle
+email_username: crawfordmikyle@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
